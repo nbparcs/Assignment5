@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace DoublyLinkedListWithErrors
 {
-   public class DLLNode
+    public class DLLNode
     {
         public int num;   // field of the node
         public DLLNode next; // pointer to the next node
         public DLLNode previous; // pointer to the previous node
-        public DLLNode (int num)
+
+        public DLLNode(int num)
         {
             this.num = num;
             next = null;
@@ -38,7 +39,7 @@ namespace DoublyLinkedListWithErrors
                 }
             }
             return (b);
-        } // end of isPrime
+        }
 
-    } // end of class DLLNode
+    }
 }

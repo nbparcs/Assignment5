@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DoublyLinkedListWithErrors
 {
-   public class DLList
+    public class DLList
     {
         public DLLNode head; // pointer to the head of the list
         public DLLNode tail; // pointer to the tail of the list
-       public DLList() { head = null;  tail = null; } // constructor
+        public DLList() { head = null; tail = null; } // constructor
         /*-------------------------------------------------------------------
         * The methods below includes several errors. Your  task is to write
         * unit test to discover these errors. During delivery the tutor may
@@ -18,7 +18,6 @@ namespace DoublyLinkedListWithErrors
         */
         public void addToTail(DLLNode p)
         {
-
             if (head == null)
             {
                 head = p;
@@ -26,9 +25,15 @@ namespace DoublyLinkedListWithErrors
             }
             else
             {
+                //original
+                //tail.next = p;
+                //tail = p;
+                //p.previous = tail;
+
+                //fixed
                 tail.next = p;
-                tail = p;
                 p.previous = tail;
+                tail = p;
             }
         } // end of addToTail
 
@@ -47,11 +52,22 @@ namespace DoublyLinkedListWithErrors
             }
         } // end of addToHead
 
-        public void removHead()
+        //public void removHead() //original
+        public void removeHead() //typo fixed
         {
             if (this.head == null) return;
-            this.head = this.head.next;
-            this.head.previous = null;
+            
+            if (this.head == this.tail) //remove if list has only 1 node
+            {
+                this.head = null;
+                this.tail = null;
+                return;
+            }
+            else
+            {
+                this.head = this.head.next; //if there is 1 node
+                this.head.previous = null;
+            }   
         } // removeHead
 
         public void removeTail()
@@ -63,6 +79,13 @@ namespace DoublyLinkedListWithErrors
                 this.tail = null;
                 return;
             }
+            //added
+            else
+            {
+                //if it has more than 1 node
+                this.tail.previous.next = null;
+                this.tail = this.tail.previous;
+            }
         } // remove tail
 
         /*-------------------------------------------------
@@ -73,14 +96,32 @@ namespace DoublyLinkedListWithErrors
             DLLNode p = head;
             while (p != null)
             {
-                p = p.next;
-                if (p.num == num) break;
+                //original
+                //p = p.next;
+                //if (p.num == num) break;
+
+                //fixed
+                if (p.num == num) // Check the node value
+                {
+                    return p; // Return the node if found
+                }
+                p = p.next; // Move to the next node
             }
-            return (p);
+            //return (p);
+            return null; //fixed
         } // end of search (return pionter to the node);
 
         public void removeNode(DLLNode p)
         { // removing the node p.
+            if (p == null) return; //added to check if p exists
+
+            //added this if
+            if (p == this.head && p == this.tail)
+            {
+                this.head = null;
+                this.tail = null;
+                return;
+            }
 
             if (p.next == null)
             {
@@ -96,11 +137,12 @@ namespace DoublyLinkedListWithErrors
                 this.head.previous = null;
                 return;
             }
+
             p.next.previous = p.previous;
             p.previous.next = p.next;
             p.next = null;
             p.previous = null;
-            return;
+            //return;
         } // end of remove a node
 
         public int total()
@@ -110,7 +152,8 @@ namespace DoublyLinkedListWithErrors
             while (p != null)
             {
                 tot += p.num;
-                p = p.next.next;
+                //p = p.next.next;
+                p = p.next; //fixed
             }
             return (tot);
         } // end of total

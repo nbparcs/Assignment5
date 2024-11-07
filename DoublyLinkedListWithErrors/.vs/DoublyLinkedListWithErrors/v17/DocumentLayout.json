@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A96D9B2-C0A0-48B2-A32D-8498ACDC1A01}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|c:\\users\\user\\downloads\\doublylinkedlistwitherrors\\doublylinkedlistwitherrors\\doublylinkedlistwitherrors\\dllist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A96D9B2-C0A0-48B2-A32D-8498ACDC1A01}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|solutionrelative:doublylinkedlistwitherrors\\dllist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|c:\\users\\user\\downloads\\doublylinkedlistwitherrors\\doublylinkedlistwitherrors\\doublylinkedlistwitherrors\\dllist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|solutionrelative:doublylinkedlistwitherrors\\dllist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A01989-FB13-418A-8825-2E75B0C37CB7}|DLLTest\\DoublyLinkedListWithErrorsUnitTest.csproj|C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\dlltest\\dlltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A01989-FB13-418A-8825-2E75B0C37CB7}|DLLTest\\DoublyLinkedListWithErrorsUnitTest.csproj|solutionrelative:dlltest\\dlltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\doublylinkedlistwitherrors\\dllnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|solutionrelative:doublylinkedlistwitherrors\\dllnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\doublylinkedlistwitherrors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DECDF027-DE69-41F5-BF89-B5577B419E88}|DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors.csproj|solutionrelative:doublylinkedlistwitherrors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,16 +38,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DLLTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLLTest\\DLLTest.cs",
+              "RelativeDocumentMoniker": "DLLTest\\DLLTest.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLLTest\\DLLTest.cs",
+              "RelativeToolTip": "DLLTest\\DLLTest.cs",
+              "ViewState": "AQIAAFcBAAAAAAAAAAAowHQBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:23:32.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DLLNode.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLLNode.cs",
+              "RelativeDocumentMoniker": "DoublyLinkedListWithErrors\\DLLNode.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLLNode.cs",
+              "RelativeToolTip": "DoublyLinkedListWithErrors\\DLLNode.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:22:32.7Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DLList.cs",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLList.cs",
               "RelativeDocumentMoniker": "DoublyLinkedListWithErrors\\DLList.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DLList.cs",
               "RelativeToolTip": "DoublyLinkedListWithErrors\\DLList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T21:11:50.681Z",
+              "WhenOpened": "2024-11-07T07:21:50.574Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\Program.cs",
+              "RelativeDocumentMoniker": "DoublyLinkedListWithErrors\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\DoublyLinkedListWithErrors\\Program.cs",
+              "RelativeToolTip": "DoublyLinkedListWithErrors\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:21:25.113Z"
             }
           ]
         }
