@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoublyLinkedListWithErrorsUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ba9a4ee39a49db6e3f79a4837533cf9e687d4ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b475680c54cf29bd056938f153523dc27f9efb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoublyLinkedListWithErrorsUnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoublyLinkedListWithErrorsUnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
